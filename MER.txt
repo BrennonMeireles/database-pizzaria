@@ -1,0 +1,57 @@
+Clientes:
+
+ID (Chave Primária)
+Nome
+Endereço
+Número de Telefone
+
+Pedidos:
+
+ID do Pedido (Chave Primária)
+ID do Cliente (Chave Estrangeira referenciando a tabela de Clientes)
+Data e Hora do Pedido
+Valor Total do Pedido
+Itens do Pedido:
+
+ID do Item (Chave Primária)
+ID do Pedido (Chave Estrangeira referenciando a tabela de Pedidos)
+ID da Pizza (Chave Estrangeira referenciando a tabela de Pizzas)
+Quantidade
+Pizzas:
+
+ID da Pizza (Chave Primária)
+Nome da Pizza
+Massa
+Borda
+Preço
+
+Bebidas:
+
+ID da Bebida (Chave Primária)
+Descrição
+Preço
+
+Relacionamentos:
+
+Cada Pedido está associado a um Cliente.
+Cada Pedido pode conter vários Itens do Pedido.
+Cada Item do Pedido está associado a uma Pizza.
+Cada Pizza pode estar em vários Itens do Pedido.
+As Bebidas podem ser adicionadas como itens separados em um Pedido.
+Além disso, podemos considerar outras entidades e relacionamentos relevantes:
+
+Ingredientes:
+
+ID do Ingrediente (Chave Primária)
+Nome do Ingrediente
+Ingredientes por Pizza (relacionamento muitos-para-muitos entre Pizzas e Ingredientes):
+ID da Relação (Chave Primária)
+ID da Pizza (Chave Estrangeira referenciando a tabela de Pizzas)
+ID do Ingrediente (Chave Estrangeira referenciando a tabela de Ingredientes)
+
+Fornadas de Pizzas:
+
+ID da Fornada (Chave Primária)
+Data e Hora da Fornada
+Quantidade de Pizzas Produzidas
+Status da Fornada (por exemplo, concluída, em andamento)
