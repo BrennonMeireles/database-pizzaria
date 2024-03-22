@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="https://github.com/BrennonMeireles/database-pizzaria/assets/141636246/7acdad21-fd66-4bf5-9c8f-bc240a228c77" alt="image" width="200px">
+</div>
+
 # Banco de Dados de uma Pizzaria
 
 Este projeto foi desenvolvido como parte de uma atividade prática na aula de banco de dados do curso no SENAI. O objetivo era projetar um banco de dados para uma pizzaria, capaz de armazenar informações sobre clientes, pedidos de pizza, detalhes das pizzas oferecidas e bebidas disponíveis.
@@ -10,8 +15,19 @@ Este projeto foi desenvolvido como parte de uma atividade prática na aula de ba
 ### Pedidos
 - O sistema deve ser capaz de registrar os pedidos feitos pelos clientes, incluindo detalhes como a data e hora do pedido, a lista de pizzas pedidas e a quantidade de cada pizza, as bebidas pedidas e sua quantidade, e o valor total do pedido.
 
+### Itens pedidos
+- O sistema deve ser capaz de registrar os itens pedidos feitos pelos clientes, incluindo detalhes como a data e hora do pedido, a lista de pizzas pedidas e a quantidade de cada pizza, as bebidas pedidas e sua quantidade, e o valor total do pedido.
+
 ### Pizzas
 - O sistema deve armazenar informações sobre as pizzas oferecidas pela pizzaria, incluindo o nome da pizza, a massa utilizada, a borda, os sabores disponíveis e os preços.
+
+### Bordas
+
+### Massas
+
+### Ingredientes
+
+### Ingredientes por Pizza
 
 ### Bebidas
 - O sistema deve manter um registro das bebidas disponíveis para os clientes, incluindo a descrição e o preço de cada bebida.
